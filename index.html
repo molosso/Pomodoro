@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pomodoro Cute</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="pink">
+
+  <div class="lace-wrapper">
+    <div class="card">
+
+      <h1>Pomodoro</h1>
+
+      <select id="themeSelector">
+        <option value="pink"> Pink</option>
+        <option value="lilac"> Lilac</option>
+        <option value="mint"> Mint</option>
+      </select>
+
+      <div class="lace-frame">
+        <div id="timer">25:00</div>
+      </div>
+
+      <p id="message">Focus time ✨</p>
+
+      <img id="plant" src="assets/plant.gif" alt="plant">
+
+
+      <div class="buttons">
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="reset">Reset</button>
+      </div>
+
+    </div>
+  </div>
+
+  <audio id="sound" src="assets/bell.mp3"></audio>
+
+  <script src="themes.js"></script>
+  <script src="renderer.js"></script>
+</body>
+</html>

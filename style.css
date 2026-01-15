@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body.pink {
+  background: linear-gradient(135deg, #fce4ec, #e6d9ff);
+}
+body.lilac {
+  background: linear-gradient(135deg, #ede7f6, #d1c4e9);
+}
+body.mint {
+  background: linear-gradient(135deg, #e0f2f1, #b2dfdb);
+}
+
+/* 🪡 Dentelle extérieure */
+.lace-wrapper {
+  position: relative;
+  padding: 25px;
+  border-radius: 45px;
+  background:
+    radial-gradient(circle at 10px 10px, #fff 35%, transparent 36%) repeat;
+  background-size: 20px 20px;
+}
+
+/* Carte principale */
+.card {
+  background: #fffafc;
+  border-radius: 30px;
+  padding: 25px;
+  width: 320px;
+  text-align: center;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* Dentelle autour du timer */
+.lace-frame {
+  margin: 15px auto;
+  padding: 10px;
+  border-radius: 25px;
+  background:
+    repeating-radial-gradient(
+      circle,
+      #f8cce3 0 6px,
+      transparent 6px 12px
+    );
+}
+
+#timer {
+  background: #fff;
+  border-radius: 20px;
+  font-size: 64px;
+  color: #6b4e71;
+  padding: 10px;
+}
+
+h1 {
+  color: #d17fa5;
+}
+
+select {
+  border-radius: 15px;
+  padding: 6px;
+  margin-bottom: 10px;
+  border: none;
+}
+
+#message {
+  color: #a67bb7;
+}
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body.pink {
+  background: linear-gradient(135deg, #fce4ec, #f3e5f5);
+}
+
+body.lilac {
+  background: linear-gradient(135deg, #ede7f6, #d1c4e9);
+}
+
+body.mint {
+  background: linear-gradient(135deg, #e0f2f1, #b2dfdb);
+}
+
+.lace-wrapper {
+  position: relative;
+  padding: 28px;
+  border-radius: 50px;
+  background:
+    radial-gradient(circle at 12px 12px, #ffffff 36%, transparent 37%) repeat;
+  background-size: 22px 22px;
+  pointer-events: none;
+}
+
+.card {
+  pointer-events: auto;
+  position: relative;
+  z-index: 10;
+  background: #fffafc;
+  border-radius: 35px;
+  padding: 28px;
+  width: 340px;
+  text-align: center;
+  box-shadow: 0 18px 35px rgba(0, 0, 0, 0.12);
+}
+
+h1 {
+  color: #d17fa5;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+select {
+  border-radius: 18px;
+  padding: 6px 14px;
+  margin-bottom: 16px;
+  border: none;
+  background: #fde3ef;
+  color: #6b4e71;
+  font-size: 14px;
+}
+
+.lace-frame {
+  margin: 18px auto;
+  padding: 12px;
+  border-radius: 28px;
+  background:
+    repeating-radial-gradient(
+      circle,
+      #f8cce3 0 6px,
+      transparent 6px 12px
+    );
+}
+
+#timer {
+  background: #ffffff;
+  border-radius: 22px;
+  font-size: 64px;
+  color: #6b4e71;
+  padding: 12px 18px;
+}
+
+#message {
+  color: #a67bb7;
+  margin-top: 8px;
+  margin-bottom: 16px;
+}
+
+#plant {
+  width: 90px;
+  margin: 18px auto;
+  display: block;
+  transition: transform 0.5s ease;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.buttons button {
+  background: #f8cce3;
+  border: none;
+  border-radius: 22px;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: #6b4e71;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.buttons button:hover {
+  background: #e6b7d5;
+  transform: scale(1.08);
+}
+
+#plant {
+  width: 80px;
+  margin: 15px auto;
+  transition: transform 0.5s ease;
+}
+
+.buttons button {
+  background: #f8cce3;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 16px;
+  margin: 5px;
+  cursor: pointer;
+  color: #6b4e71;
+  transition: all 0.2s ease;
+}
+
+.buttons button:hover {
+  transform: scale(1.08);
+  background: #e6b7d5;
+}
